@@ -13,8 +13,9 @@
 
         header {
             background-color: #333;
-            color: #fff;
-            padding: 10px;
+            color: white;
+            padding: 20px;
+            text-align: center;
         }
 
         nav {
@@ -41,6 +42,7 @@
 
         section {
             padding: 20px;
+            text-align: center;
         }
 
         h1 {
@@ -54,12 +56,40 @@
             text-align: center;
             padding: 10px;
         }
+
+        /* Style for the main content */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Style for the section titles */
+        h2 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        /* Style for the dataset information */
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        /* Style for the source link */
+        .source-link {
+            display: block;
+            margin-top: 20px;
+            font-size: 16px;
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Suyash's Website</h1>
+        <h1>Airline Safety Dataset</h1>
+        <p>A dataset from FiveThirtyEight containing information on commercial airline safety</p>
     </header>
     <nav>
         <a href="tableau.html">Tableau Visualization</a>
@@ -67,12 +97,57 @@
         <a href="Python.html">Python Visualization</a>
         <a href="d3.html">D3.js Visualization</a>
     </nav>
+
     <section>
-        <h1>Welcome to My Website</h1>
-        <p>This is a simple and aesthetic static HTML webpage that links to four other web pages.</p>
+        <h1>18CSE301J_RA2011003010508</h1>
+        <p>information Visualization Project By Suyash Joshi</p>
     </section>
+
+    <main>
+        <h2>About the Dataset</h2>
+        <p>The <a href="https://github.com/fivethirtyeight/data/tree/master/airline-safety">Airline Safety Dataset</a>
+            contains information on the safety record of commercial airlines around the world. The dataset includes data
+            on incidents, accidents, fatalities, and exposure (i.e. the number of flights) for airlines from 1985 to
+            2014. The dataset was compiled by FiveThirtyEight and is based on data from various sources including the
+            Federal Aviation Administration, the National Transportation Safety Board, and the International Air
+            Transport Association.</p>
+
+        <h2>Data Analysis and Visualization</h2>
+        <p>The airline safety dataset is a valuable resource for data analysts and visualization experts who want to
+            study and explore trends in airline safety over time. The dataset can be used to create visualizations such
+            as bar charts, line charts, and scatter plots that show how different airlines compare in terms of safety
+            performance. Analysts can also use the dataset to calculate summary statistics such as the number of
+            accidents per year, the number of fatalities per year, and the overall safety record of different airlines.
+        </p>
+
+        <h2>Limitations of the Dataset</h2>
+        <p>While the airline safety dataset provides a rich source of information on airline safety, it has some
+            limitations that users should be aware of. For example, the dataset does not include data on all airlines
+            around the world, and some airlines may have different reporting standards that can make comparisons
+            difficult. Additionally, the dataset only includes data up to 2014, so it does not reflect more recent
+            trends in airline safety. Finally, the dataset only includes data on incidents and accidents that resulted
+            in fatalities or serious injuries, so it does not include information on less serious incidents that may
+            still impact airline safety.</p>
+
+        <h2>Accessing the Dataset</h2>
+        <p>The airline safety dataset is available for download from the <a
+                href="https://github.com/fivethirtyeight/data/tree/master/airline-safety">FiveThirtyEight GitHub
+                repository</a>. The dataset is in CSV format and can be opened in a variety of software tools including
+            Microsoft Excel, Google Sheets, and Python programming environments such as Jupyter Notebook or Pandas.</p>
+        <h2>Conclusion</h2>
+        <p>The airline safety dataset from FiveThirtyEight is a valuable resource for anyone interested in studying
+            trends in commercial airline safety. The dataset provides detailed information on incidents, accidents,
+            fatalities, and exposure for airlines around the world from 1985 to 2014. While the dataset has some
+            limitations, it can still be used to create compelling visualizations and to conduct detailed data analysis.
+        </p>
+
+        <div class="source-link">
+            <p>Source: <a href="https://github.com/fivethirtyeight/data/tree/master/airline-safety">FiveThirtyEight
+                    GitHub Repository</a></p>
+        </div>
+    </main>
     <footer>
-        <p>&copy; 2023 My Website. All rights reserved.</p>
+        <p>18CSE301J_RA2011003010508</p>
     </footer>
 </body>
 
