@@ -55,6 +55,12 @@
       color: #fff;
     }
 
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
     /* Center the chart */
     #my_dataviz {
       display: flex;
@@ -143,6 +149,24 @@
     </a>
     <a href="page4.html">D3.js Visualization</a>
   </nav>
+
+  <div>
+    <p>
+      This is a code snippet written in HTML and JavaScript using the d3.js library to create a kernel density plot. The
+      plot shows the distribution of different safety measures for various airlines.
+
+      The code first sets the dimensions and margins of the graph and appends an SVG element to the webpage. It then
+      reads the data from a CSV file and computes the mean of each category, which includes different safety measures
+      like incidents, fatal accidents, and fatalities.
+
+      Next, it creates a color scale using the means and adds the x and y-axes to the plot. The x-axis shows the
+      probability in percentage, and the y-axis shows the safety measures' names.
+
+      The code then computes the kernel density estimation for each category and stores it in the allDensity array.
+      Finally, it plots the kernel density curves for each category on the graph and fills them with colors based on the
+      color scale. The legend for the color scale is also added to the plot.
+    </p>
+  </div>
 
   <div id="my_dataviz">
     <!-- Viridis color palette-->
